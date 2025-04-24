@@ -1,58 +1,53 @@
 <!DOCTYPE html>
-<!-- Declares HTML5 document type -->
+<!-- Declares the document as HTML5 -->
 <html lang="en">
-<!-- Sets language to English -->
+<!-- Sets the language to English -->
+
 <head>
-    <!-- Meta tags for character encoding and responsive viewport -->
     <meta charset="UTF-8">
+    <!-- Sets character encoding to UTF-8 -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Digital Business Card</title> <!-- Browser tab title -->
-    
-    <!-- Link to external CSS file -->
+    <!-- Makes the site responsive on all devices -->
+
+    <title>Tanziful Islam - Web Developer</title>
+    <!-- Page title shown in the browser tab -->
+
+    <!-- Linking external CSS stylesheet -->
     <link rel="stylesheet" href="styles.css">
-    
-    <!-- Font Awesome CDN for icons (optional) -->
+
+    <!-- Linking Font Awesome CDN for social media icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <!-- Main container for the business card -->
+    <!-- Dark Mode Toggle Button -->
+    <button id="themeToggle" class="theme-toggle">
+        <i class="fas fa-moon"></i> Dark Mode
+    </button>
+
+    <!-- Main business card container -->
     <div class="business-card">
-        <!-- Profile image (placeholder - replace with your image) -->
+        <!-- Name and title with fade animation class -->
+        <h1 class="animate-fade">Tanziful Islam</h1>
+        <h2 class="animate-fade">Web Developer</h2>
 
-         <!-- <img 
-            src="https://via.placeholder.com/150" 
-            alt="Profile Photo" 
-            class="profile-img"
-        >-->
-
-        <!-- Name and job title -->
-        <h1>Tanziful Islam</h1> <!-- Main heading (your name) -->
-        <h2>Web Developer</h2> <!-- Subheading (job title) -->
-
-        <!-- Contact information section -->
+        <!-- Contact Info with slide animation -->
         <div class="contact-info">
-            <!-- Email with icon -->
-            <p><i class="fas fa-envelope"></i> tanzifislam310@gmail.com</p>
-            
-            <!-- Phone number with icon -->
-            <p><i class="fas fa-phone"></i> 01637591674</p>
-            
-            <!-- Location with icon -->
-            <p><i class="fas fa-map-marker-alt"></i> Dhaka,Bangladesh</p>
+            <p class="animate-slide"><i class="fas fa-envelope"></i> tanzifislam310@gmail.com</p>
+            <p class="animate-slide"><i class="fas fa-phone"></i> 01637591674</p>
+            <p class="animate-slide"><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</p>
         </div>
 
-        <!-- Social media links section -->
+        <!-- Social Media Links with bounce animation -->
         <div class="social-links">
-            <!-- GitHub link -->
-            <a href="https://github.com/Tanziful" target="_blank"><i class="fab fa-github"></i></a>
-            
-            <!-- LinkedIn link -->
-            <a href="https://www.linkedin.com/in/tanziful-islam-2a6b59355/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            
-            <!-- Twitter/X link -->
-            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/Tanziful" target="_blank" class="animate-bounce"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tanziful-islam-2a6b59355/" target="_blank" class="animate-bounce"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="animate-bounce"><i class="fab fa-twitter"></i></a>
         </div>
     </div>
+
+    <!-- Linking external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
