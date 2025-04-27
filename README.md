@@ -24,3 +24,6 @@ A modern, responsive digital business card built using HTML, CSS, and JavaScript
 - CSS3 (Flexbox, Variables, Media Queries, Animations)
 - JavaScript (DOM, localStorage)
 
+## Author
+- Created by Tanziful Islam
+
